@@ -1,0 +1,34 @@
+.separation-line {
+  border: 1px solid black;
+  width: 100px;
+  margin: 10px 0;
+}
+
+.container {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+.contact-links {
+  padding: 5vh 0;
+}
+
+.contact-links > a {
+  padding-right: 10vw;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .separation-line {
+    margin: 24px;
+  }
+}

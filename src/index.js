@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Main from './main/Main';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Portfolio</h1>
+    <Main />
   </React.StrictMode>,
   document.getElementById('root'),
 );
