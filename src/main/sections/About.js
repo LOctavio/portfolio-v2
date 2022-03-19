@@ -17,17 +17,19 @@ const About = () => (
           <span>Get my resume</span>
         </a>
       </div>
-      <div className="row col-md-6">
-        {skillsData.map((skills) => (
-          <div key={skills.title} className="card text-white bg-dark mb-3 col-sm-6">
-            <h5>{skills.title}</h5>
-            <ul>
-              {skills.skills.map((skill) => (
-                <li key={skill}>{skill}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <div className="col-md-6">
+        <div className="row">
+          {skillsData.map((skills) => (
+            <div key={skills.title} className="card text-white bg-dark mb-3 col-sm-6">
+              <h5>{skills.title}</h5>
+              <ul>
+                {skills.skills.map((skill) => (
+                  <li key={skill}>{skill}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   </div>

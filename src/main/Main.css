@@ -6,7 +6,7 @@
 
 .container {
   padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-bottom: 18vh;
 }
 
 .contact-links {
@@ -65,7 +65,7 @@
 .about-info {
   margin-bottom: 20px;
 }
-
+  
 @media only screen and (min-width: 768px) {
   .contact-links {
     display: flex;
