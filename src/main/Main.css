@@ -22,6 +22,46 @@
   justify-content: space-between;
 }
 
+.main-image-section {
+  position: relative;
+  display: flex;
+}
+
+.project-title {
+  position: absolute;
+  top: 0px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.tags {
+  position: absolute;
+  top: 60px;
+}
+.tags .tag {
+  padding: 2px;
+  margin: 0 1px;
+  font-size: 14px;
+}
+
+.see-this-project-btn {
+  position: absolute;
+  bottom: 10px;
+}
+
+.secondary-image {
+  display: none;
+}
+
+.project-section {
+  padding: 1px 0;
+}
+
+.small-images {
+  padding: 0;
+}
+
 @media only screen and (min-width: 768px) {
   .contact-links {
     display: flex;
@@ -30,5 +70,13 @@
 
   .separation-line {
     margin: 24px;
+  }
+
+  .secondary-image {
+    display: block;
+  }
+
+  .main-image {
+    width: 90vw;
   }
 }
