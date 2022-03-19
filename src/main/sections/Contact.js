@@ -16,13 +16,7 @@ const Contact = () => {
       'template_qljctsc',
       toSend,
       'nNfPPqTKlASgD5TvX',
-    )
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-      })
-      .catch((err) => {
-        console.log('FAILED...', err);
-      });
+    );
   };
 
   const handleChange = (e) => {
