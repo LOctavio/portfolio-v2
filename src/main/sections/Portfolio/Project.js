@@ -8,7 +8,7 @@ const Project = (props) => {
         <h3 className="project-title">{title}</h3>
         <div className="tags">
           {tags.map((tag) => (
-            <span className="tag text-white bg-secondary" key={tag}>{tag}</span>
+            <span className="tag" key={tag}>{tag}</span>
           ))}
         </div>
         <button type="button" className="see-this-project-btn btn btn-dark">See this project</button>
