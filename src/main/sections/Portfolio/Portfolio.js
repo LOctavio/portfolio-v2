@@ -1,4 +1,4 @@
-import stockData from '../../../data';
+import stockData from '../../../portfolioData';
 import Project from './Project';
 
 const Portfolio = () => (
