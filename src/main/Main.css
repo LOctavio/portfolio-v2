@@ -25,6 +25,8 @@
 .main-image-section {
   position: relative;
   display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 .project-title {
@@ -36,7 +38,7 @@
 
 .tags {
   position: absolute;
-  top: 60px;
+  top: 70px;
 }
 
 .tags .tag {
@@ -52,12 +54,18 @@
   bottom: 10px;
 }
 
+.main-image {
+  margin: -10px;
+}
+
 .secondary-image {
   display: none;
+  border: 0.5px solid transparent;
 }
 
 .project-section {
-  padding: 1px 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .small-images {
@@ -85,6 +93,10 @@
 
   .separation-line {
     margin: 24px;
+  }
+
+  .main-image-section {
+    justify-content: left;
   }
 
   .secondary-image {

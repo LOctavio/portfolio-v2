@@ -85,7 +85,7 @@ const stockData = [
     ],
   },
   {
-    title: 'Summer electronic music festival',
+    title: 'SEMF',
     tags: [
       'HTML',
       'CSS',
