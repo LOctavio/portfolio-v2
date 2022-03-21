@@ -16,6 +16,7 @@ import project1IMG3 from './img/project1/screenshot3.png';
 
 const stockData = [
   {
+    id: 1,
     title: 'Lodging app',
     tags: [
       'HTML',
@@ -35,6 +36,7 @@ const stockData = [
     ],
   },
   {
+    id: 2,
     title: 'Budget app',
     tags: [
       'HTML',
@@ -51,6 +53,7 @@ const stockData = [
     ],
   },
   {
+    id: 3,
     title: 'Metrics webapp',
     tags: [
       'HTML',
@@ -68,6 +71,7 @@ const stockData = [
     ],
   },
   {
+    id: 4,
     title: 'Space travelers hub',
     tags: [
       'HTML',
@@ -85,6 +89,7 @@ const stockData = [
     ],
   },
   {
+    id: 5,
     title: 'SEMF',
     tags: [
       'HTML',
