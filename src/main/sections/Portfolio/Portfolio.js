@@ -7,7 +7,8 @@ const Portfolio = () => (
     <h1>Portfolio</h1>
     {stockData.map((project) => (
       <Project
-        key={project.title}
+        key={project.id}
+        id={project.id}
         title={project.title}
         tags={project.tags}
         images={project.images}

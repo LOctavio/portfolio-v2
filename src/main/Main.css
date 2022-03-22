@@ -85,6 +85,26 @@
   height: 100%;
 }
 
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.modal-footer {
+  display: none;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.source {
+  color: red;
+}
+
 @media only screen and (min-width: 768px) {
   .contact-links {
     display: flex;
@@ -105,5 +125,22 @@
 
   .main-image {
     width: 90vw;
+  }
+
+  .modal-footer {
+    display: flex;
+  }
+
+  .modal-tag {
+    color: white;
+    background-color: black;
+    margin-right: 10px;
+    padding: 4px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .modal-dialog {
+      max-width: 800px;
   }
 }
