@@ -27,7 +27,7 @@ const stockData = [
       'Redux',
     ],
     description: 'This app allows the user to reserve a room in a hotel in an easy way. The API was created with Ruby on Rails and the front-end with React.',
-    live: 'https://goofy-panini-7f9108.netlify.app/login',
+    live: 'https://goofy-panini-7f9108.netlify.app',
     source: 'https://github.com/mike2611/lodging-app-frontend',
     images: [
       project4IMG1,
@@ -61,7 +61,7 @@ const stockData = [
       'React',
       'Redux',
     ],
-    description: 'This is a mobile web application where users can manage their budget: They have a list of products associated with a category, so that they can see how much money they spent and on what.',
+    description: 'This app consumes the Narrativa API and shows a list of several countries and the confirmed covid cases of each one until 2021-08-01.',
     live: 'https://metrics-webapp-loctavio.netlify.app/',
     source: 'https://github.com/LOctavio/metrics-webapp',
     images: [
