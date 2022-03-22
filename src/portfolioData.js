@@ -13,6 +13,9 @@ import project5IMG3 from './img/project5/screenshot3.png';
 import project1IMG1 from './img/project1/screenshot1.png';
 import project1IMG2 from './img/project1/screenshot2.png';
 import project1IMG3 from './img/project1/screenshot3.png';
+import project6IMG1 from './img/project6/screenshot1.png';
+import project6IMG2 from './img/project6/screenshot2.png';
+import project6IMG3 from './img/project6/screenshot3.png';
 
 const stockData = [
   {
@@ -103,6 +106,23 @@ const stockData = [
       project1IMG1,
       project1IMG2,
       project1IMG3,
+    ],
+  },
+  {
+    id: 6,
+    title: 'Picture of the day',
+    tags: [
+      'JavaScript',
+      'HTML',
+      'CSS',
+    ],
+    description: 'This is a web app that contains information about a fake Electronic music festival',
+    live: 'https://rawcdn.githack.com/LOctavio/music-festival/191eb50f09433e2f89e77071b10802b1bccbb988/index.html',
+    source: 'https://github.com/LOctavio/music-festival',
+    images: [
+      project6IMG1,
+      project6IMG2,
+      project6IMG3,
     ],
   },
 ];
