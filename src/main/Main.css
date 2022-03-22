@@ -25,6 +25,8 @@
 .main-image-section {
   position: relative;
   display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 .project-title {
@@ -36,7 +38,7 @@
 
 .tags {
   position: absolute;
-  top: 60px;
+  top: 65px;
 }
 
 .tags .tag {
@@ -52,12 +54,18 @@
   bottom: 10px;
 }
 
+.main-image {
+  margin: -10px;
+}
+
 .secondary-image {
   display: none;
+  border: 0.5px solid transparent;
 }
 
 .project-section {
-  padding: 1px 0;
+  padding: 10px 30px;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .small-images {
@@ -66,6 +74,35 @@
 
 .about-info {
   margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  padding: 15px;
+  height: 100%;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.modal-footer {
+  display: none;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.source {
+  color: red;
 }
 
 @media only screen and (min-width: 768px) {
@@ -78,11 +115,32 @@
     margin: 24px;
   }
 
+  .main-image-section {
+    justify-content: left;
+  }
+
   .secondary-image {
     display: block;
   }
 
   .main-image {
     width: 90vw;
+  }
+
+  .modal-footer {
+    display: flex;
+  }
+
+  .modal-tag {
+    color: white;
+    background-color: black;
+    margin-right: 10px;
+    padding: 4px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .modal-dialog {
+    max-width: 800px;
   }
 }
